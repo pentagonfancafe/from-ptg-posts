@@ -18,25 +18,18 @@ header {
 	font-size: 15px;
 }
 
-/* Clear floats after the columns */
-section {
+.date {
+	color: #b2b2b2;
 	padding-left: 40px;
 	text-align: left;
 	font-size: 15px;
 }
 
-article {
+.content {
+	color: #dddddd;
 	padding-left: 40px;
 	text-align: left;
 	font-size: 20px;
-}
-
-.date {
-	color: #b2b2b2;
-}
-
-.content {
-	color: #dddddd;
 }
 
 footer {
