@@ -16,7 +16,7 @@ header {
 }
 
 article {
-	padding: 40px;
+	padding: 10px;
 	text-align: left;
 	font-size: 25px;
 	color: black;
@@ -24,7 +24,7 @@ article {
 
 /* Clear floats after the columns */
 section {
-	padding: 40px;
+	padding: 10px;
 	text-align: left;
 	font-size: 15px;
 	color: #b3b5b7;
