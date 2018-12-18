@@ -13,7 +13,7 @@ header {
 	background-color: #6c7ae0;
 	border-radius: 20px;
 	border-bottom: 1px solid #dddddd;
-	padding: 40px;
+	padding: 20px;
 	text-align: left;
 	font-size: 15px;
 }
@@ -44,9 +44,9 @@ footer {
 
 .button {
   background-color: #6c7ae0;
-  border: none;
+  border-radius: 20px;
   color: white;
-  padding: 15px 32px;
+  padding: 10px 25px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
