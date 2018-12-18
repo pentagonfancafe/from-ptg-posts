@@ -79,12 +79,22 @@
 		  background-color: #f8f6ff;
 		}
 
-		tr:nth-child(even) {
+		.table1 .table1-body tr:nth-child(even) {
 		  background-color: #dddddd;
 		}
 
-		tr:nth-child(odd) {
+		.table1 .table1-body tr:nth-child(odd) {
 			background: #ffffff;
+		}
+
+		.table1 {
+			border-radius: 10px;
+			overflow: hidden;
+			box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+			-moz-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+			-webkit-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+			-o-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+			-ms-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
 		}
 
 		/*Fix header*/
@@ -109,35 +119,33 @@
 <body>
 	<div class="content">
 		<h1>Pentagon Fancafe</h1>
-		<div container="container">
-			<div class="table1">
-				<div class="table1-head">
-					<table>
-						<thead>
-							<tr class="head">
-								<th class="col1">Post</th>
-								<th class="col2">Name</th>
-								<th class="col3">Title</th>
-								<th class="col4">Date</th>
-							</tr>
-						</thead>
-					</table>
-				</div>
+		<div class="table1">
+			<div class="table1-head">
+				<table>
+					<thead>
+						<tr class="head">
+							<th class="col1">Post</th>
+							<th class="col2">Name</th>
+							<th class="col3">Title</th>
+							<th class="col4">Date</th>
+						</tr>
+					</thead>
+				</table>
+			</div>
 
-				<div class="table1-body"></div>
-					<table>
-						<tbody>
-							<tr>
-								<td class="col1">1</td>
-								<td class="col2">Hongseok</td>
-								<td class="col3"><a href="161005Hongseok.html" class="button">안녕하세요 :)</a></td>
-								<td class="col4">16.10.05</td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
+			<div class="table1-body"></div>
+				<table>
+					<tbody>
+						<tr>
+							<td class="col1">1</td>
+							<td class="col2">Hongseok</td>
+							<td class="col3"><a href="161005Hongseok.html" class="button">안녕하세요 :)</a></td>
+							<td class="col4">16.10.05</td>
+						</tr>
+					</tbody>
+				</table>
 			</div>
 		</div>
-	</div>
+]	</div>
 </body>
 </html>
