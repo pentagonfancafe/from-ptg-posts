@@ -1,5 +1,5 @@
 * {
-  box-sizing: border-box;
+  box-sizing: 40px;
 }
 
 body {
@@ -15,19 +15,17 @@ header {
 }
 
 article {
-	border-radius: 40px;
-	padding: 10px 10px 10px 40px;
-	text-align: left;
-	font-size: 10px;
-}
-
-/* Clear floats after the columns */
-section:after {
-	border-radius: 40px;
 	padding: 10px 10px 10px 40px;
 	text-align: left;
 	font-size: 25px;
-	color: gray;
+}
+
+/* Clear floats after the columns */
+section {
+	padding: 10px 10px 10px 40px;
+	text-align: left;
+	font-size: 15px;
+	color: #b3b5b7;
 }
 
 /* Style the footer */
