@@ -10,6 +10,7 @@ body {
 }
 
 header {
+	background-color: #ffffff;
 	border-radius: 30px;
 	border-bottom: 1px solid #dddddd;
 	padding: 40px;
