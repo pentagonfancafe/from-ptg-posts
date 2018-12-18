@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+	border-radius: 25px;
+	border-bottom: 1px solid #dddddd;
+	padding: 30px;
+	text-align: left;
+	font-size: 15px;
+}
+
+article {
+	padding: 30px;
+	text-align: left;
+	font-size: 10px;
+}
+
+/* Clear floats after the columns */
+section:after {
+  	padding: 30px;
+	text-align: left;
+	font-size: 25px;
+}
+
+/* Style the footer */
+footer {
+  padding: 10px;
+  text-align: left;
+}
