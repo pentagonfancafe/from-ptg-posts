@@ -10,6 +10,7 @@ body {
 header {
 	border-radius: 40px;
 	border-bottom: 1px solid #dddddd;
+	padding: 40px;
 	text-align: left;
 	font-size: 15px;
 }
