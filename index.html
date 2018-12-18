@@ -17,6 +17,22 @@
 			color: white;
 		}
 
+		.container {
+			width: 100%;
+			min-height: 100vh;
+			background: #fff;
+
+			display: -webkit-box;
+			display: -webkit-flex;
+			display: -moz-box;
+			display: -ms-flexbox;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-wrap: wrap;
+			padding: 33px 30px;
+		}
+
 		/*Table*/
 		.table1 {
 		  background-color: #fff;
@@ -60,7 +76,7 @@
 
 		/*Rows*/
 		.table1 th {
-		  font-family: Lato-Bold;
+		  font-family: Helvetica-Bold;
 		  font-size: 18px;
 		  color: #fff;
 		  line-height: 1.4;
@@ -69,7 +85,7 @@
 		}
 
 		.table1 td {
-		  font-family: Lato-Regular;
+		  font-family: Helvetica;
 		  font-size: 15px;
 		  color: #808080;
 		  line-height: 1.4;
@@ -109,53 +125,55 @@
 <body>
 	<div class="content">
 		<h1>Pentagon Fancafe</h1>
-		<div class="table1">
-			<div class="table1-head">
-				<table>
-					<thead>
-						<tr class="head">
-							<th class="col1">Post</th>
-							<th class="col2">Name</th>
-							<th class="col3">Title</th>
-							<th class="col4">Date</th>
-						</tr>
-					</thead>
-				</table>
-			</div>
+		<div container="container">
+			<div class="table1">
+				<div class="table1-head">
+					<table>
+						<thead>
+							<tr class="head">
+								<th class="col1">Post</th>
+								<th class="col2">Name</th>
+								<th class="col3">Title</th>
+								<th class="col4">Date</th>
+							</tr>
+						</thead>
+					</table>
+				</div>
 
-			<div class="table1-body"></div>
-				<table>
-				  <tr>
-				    <td>1</td>
-				    <td>Hongseok</td>
-				    <td><a href="161005Hongseok.html" class="button">안녕하세요 :)</a></td>
-				    <td>16.10.05</td>
-				  </tr>
-				  <tr>
-				    <td>1</td>
-				    <td>Hongseok</td>
-				    <td><a href="161005Hongseok.html">안녕하세요 :)</a></td>
-				    <td>16.10.05</td>
-				  </tr>
-				  <tr>
-				    <td>1</td>
-				    <td>Hongseok</td>
-				    <td><a href="161005Hongseok.html">안녕하세요 :)</a></td>
-				    <td>16.10.05</td>
-				  </tr>
-				  <tr>
-				    <td>1</td>
-				    <td>Hongseok</td>
-				    <td><a href="161005Hongseok.html">안녕하세요 :)</a></td>
-				    <td>16.10.05</td>
-				  </tr>
-				  <tr>
-				    <td>1</td>
-				    <td>Hongseok</td>
-				    <td><a href="161005Hongseok.html">안녕하세요 :)</a></td>
-				    <td>16.10.05</td>
-				  </tr>
-				</table>
+				<div class="table1-body"></div>
+					<table>
+					  <tr>
+					    <td>1</td>
+					    <td>Hongseok</td>
+					    <td><a href="161005Hongseok.html" class="button">안녕하세요 :)</a></td>
+					    <td>16.10.05</td>
+					  </tr>
+					  <tr>
+					    <td>1</td>
+					    <td>Hongseok</td>
+					    <td><a href="161005Hongseok.html">안녕하세요 :)</a></td>
+					    <td>16.10.05</td>
+					  </tr>
+					  <tr>
+					    <td>1</td>
+					    <td>Hongseok</td>
+					    <td><a href="161005Hongseok.html">안녕하세요 :)</a></td>
+					    <td>16.10.05</td>
+					  </tr>
+					  <tr>
+					    <td>1</td>
+					    <td>Hongseok</td>
+					    <td><a href="161005Hongseok.html">안녕하세요 :)</a></td>
+					    <td>16.10.05</td>
+					  </tr>
+					  <tr>
+					    <td>1</td>
+					    <td>Hongseok</td>
+					    <td><a href="161005Hongseok.html">안녕하세요 :)</a></td>
+					    <td>16.10.05</td>
+					  </tr>
+					</table>
+				</div>
 			</div>
 		</div>
 	</div>
