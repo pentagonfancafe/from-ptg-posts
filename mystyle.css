@@ -16,14 +16,14 @@ header {
 }
 
 article {
-	padding: 30px;
+	padding: 50px;
 	text-align: left;
 	font-size: 10px;
 }
 
 /* Clear floats after the columns */
 section:after {
-  	padding: 30px;
+  	padding: 50px;
 	text-align: left;
 	font-size: 25px;
 }
