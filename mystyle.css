@@ -16,19 +16,19 @@ header {
 	font-size: 15px;
 }
 
-article {
-	padding: 10px;
-	text-align: left;
-	font-size: 25px;
-	color: #dddddd;
-}
-
 /* Clear floats after the columns */
 section {
 	padding: 10px;
 	text-align: left;
 	font-size: 15px;
 	color: #b3b5b7;
+}
+
+article {
+	padding: 10px;
+	text-align: left;
+	font-size: 20px;
+	color: #dddddd;
 }
 
 /* Style the footer */
