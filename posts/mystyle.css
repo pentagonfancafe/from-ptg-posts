@@ -32,9 +32,9 @@ section {
 }
 
 .content {
-	padding-left: 20px;
 	text-align: left;
 	font-size: 20px;
+	color: #000000;
 }
 
 .button {
