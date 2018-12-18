@@ -4,11 +4,13 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url("universe.jpg");
-  opacity: 0.4;
 }
 
-/* Style the header */
+div.background {
+  			background: url("universe.jpg") repeat;
+  			opacity: 0.4;
+}
+
 header {
 	border-radius: 40px;
 	border-bottom: 1px solid #dddddd;
@@ -32,7 +34,6 @@ article {
 	color: #dddddd;
 }
 
-/* Style the footer */
 footer {
   padding: 10px;
   text-align: left;
