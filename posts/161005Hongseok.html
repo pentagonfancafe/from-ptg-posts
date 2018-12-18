@@ -25,11 +25,11 @@
 
 </body>
 
-<button onclick="goBack()"> < Back to homepage </button>
+<button id="myButton" class="float-left submit-button" >Home</button>
 
-<script>
-	function goBack() {
-	    window.history.back();
-	}
+<script type="text/javascript">
+    document.getElementById("myButton").onclick = function () {
+        location.href = "https://pentagonfancafe.github.io/from-ptg-posts/";
+    };
 </script>
 </html>
