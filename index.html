@@ -38,7 +38,11 @@
 
 		/*==================================================================
 		[ Fix header ]*/
-
+		.table1 {
+		  position: relative;
+		  padding-top: 60px;
+		}
+		
 		.tableheader {
 		  position: absolute;
 		  width: 100%;
@@ -55,18 +59,19 @@
 <body>
 	<div class="content">
 		<h1>Pentagon Fancafe</h1>
-
-		<div class="tableheader">
-			<table>
-				<thead>
-					<tr class="head">
-						<th class="col1">Post</th>
-						<th class="col2">Name</th>
-						<th class="col3">Title</th>
-						<th class="col4">Date</th>
-					</tr>
-				</thead>
-			</table>
+		<div class="table1">
+			<div class="tableheader">
+				<table>
+					<thead>
+						<tr class="head">
+							<th class="col1">Post</th>
+							<th class="col2">Name</th>
+							<th class="col3">Title</th>
+							<th class="col4">Date</th>
+						</tr>
+					</thead>
+				</table>
+			</div>
 		</div>
 
 		<table>
