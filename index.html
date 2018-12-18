@@ -17,15 +17,66 @@
 			color: white;
 		}
 
+		/*Table*/
+		.table1 {
+		  background-color: #fff;
+		}
+
 		table {
-		  font-family: arial, sans-serif;
-		  border-collapse: collapse;
 		  width: 100%;
 		}
 
-		td, th {
-		  text-align: left;
-		  padding: 8px;
+		th, td {
+		  font-weight: unset;
+		  padding-right: 10px;
+		}
+
+		.col1 {
+		  width: 33%;
+		  padding-left: 40px;
+		}
+
+		.col2 {
+		  width: 13%;
+		}
+
+		.col3 {
+		  width: 22%;
+		}
+
+		.col4 {
+		  width: 19%;
+		}
+
+		.table1-head th {
+		  padding-top: 18px;
+		  padding-bottom: 18px;
+		}
+
+		.table1-body td {
+		  padding-top: 16px;
+		  padding-bottom: 16px;
+		}
+
+		/*Rows*/
+		.table1 th {
+		  font-family: Lato-Bold;
+		  font-size: 18px;
+		  color: #fff;
+		  line-height: 1.4;
+
+		  background-color: #6c7ae0;
+		}
+
+		.table1 td {
+		  font-family: Lato-Regular;
+		  font-size: 15px;
+		  color: #808080;
+		  line-height: 1.4;
+		}
+
+		.table1-body tr:nth-child(even) {
+		  background-color: #f8f6ff;
 		}
 
 		tr:nth-child(even) {
@@ -36,14 +87,13 @@
 			background: #ffffff;
 		}
 
-		/*==================================================================
-		[ Fix header ]*/
+		/*Fix header*/
 		.table1 {
 		  position: relative;
 		  padding-top: 60px;
 		}
 
-		.tableheader {
+		.table1-head {
 		  position: absolute;
 		  width: 100%;
 		  top: 0;
@@ -60,7 +110,7 @@
 	<div class="content">
 		<h1>Pentagon Fancafe</h1>
 		<div class="table1">
-			<div class="tableheader">
+			<div class="table1-head">
 				<table>
 					<thead>
 						<tr class="head">
@@ -72,40 +122,42 @@
 					</thead>
 				</table>
 			</div>
-		</div>
 
-		<table>
-		  <tr>
-		    <td>1</td>
-		    <td>Hongseok</td>
-		    <td><a href="161005Hongseok.html" class="button">안녕하세요 :)</a></td>
-		    <td>16.10.05</td>
-		  </tr>
-		  <tr>
-		    <td>1</td>
-		    <td>Hongseok</td>
-		    <td><a href="161005Hongseok.html">안녕하세요 :)</a></td>
-		    <td>16.10.05</td>
-		  </tr>
-		  <tr>
-		    <td>1</td>
-		    <td>Hongseok</td>
-		    <td><a href="161005Hongseok.html">안녕하세요 :)</a></td>
-		    <td>16.10.05</td>
-		  </tr>
-		  <tr>
-		    <td>1</td>
-		    <td>Hongseok</td>
-		    <td><a href="161005Hongseok.html">안녕하세요 :)</a></td>
-		    <td>16.10.05</td>
-		  </tr>
-		  <tr>
-		    <td>1</td>
-		    <td>Hongseok</td>
-		    <td><a href="161005Hongseok.html">안녕하세요 :)</a></td>
-		    <td>16.10.05</td>
-		  </tr>
-		</table>
+			<div class="table1-body"></div>
+				<table>
+				  <tr>
+				    <td>1</td>
+				    <td>Hongseok</td>
+				    <td><a href="161005Hongseok.html" class="button">안녕하세요 :)</a></td>
+				    <td>16.10.05</td>
+				  </tr>
+				  <tr>
+				    <td>1</td>
+				    <td>Hongseok</td>
+				    <td><a href="161005Hongseok.html">안녕하세요 :)</a></td>
+				    <td>16.10.05</td>
+				  </tr>
+				  <tr>
+				    <td>1</td>
+				    <td>Hongseok</td>
+				    <td><a href="161005Hongseok.html">안녕하세요 :)</a></td>
+				    <td>16.10.05</td>
+				  </tr>
+				  <tr>
+				    <td>1</td>
+				    <td>Hongseok</td>
+				    <td><a href="161005Hongseok.html">안녕하세요 :)</a></td>
+				    <td>16.10.05</td>
+				  </tr>
+				  <tr>
+				    <td>1</td>
+				    <td>Hongseok</td>
+				    <td><a href="161005Hongseok.html">안녕하세요 :)</a></td>
+				    <td>16.10.05</td>
+				  </tr>
+				</table>
+			</div>
+		</div>
 	</div>
 </body>
 </html>
