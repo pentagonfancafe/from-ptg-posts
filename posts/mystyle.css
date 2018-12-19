@@ -65,3 +65,8 @@ header {
 	margin: 4px 2px;
 	cursor: pointer;
 }
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
