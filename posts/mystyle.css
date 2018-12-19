@@ -12,7 +12,7 @@ body {
 header {
 	background-color: #6c7ae0;
 	border-radius: 20px;
-	padding: 10px;
+	padding-left: 30px;
 	text-align: left;
 	font-size: 20px;
 }
@@ -20,7 +20,7 @@ header {
 section {
 	border-radius: 20px;
 	background-color: #ffffff;
-	padding-left: 30px;
+	padding: 30px;
 }
 
 .date {
@@ -38,13 +38,13 @@ section {
 }
 
 .button {
-  background-color: #6c7ae0;
-  border-radius: 20px;
-  padding: 10px 15px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
+	background-color: #6c7ae0;
+	border-radius: 20px;
+	padding: 10px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
 }
