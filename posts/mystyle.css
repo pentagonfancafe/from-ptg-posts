@@ -12,9 +12,10 @@ body {
 header {
 	background-color: #6c7ae0;
 	border-radius: 20px;
-	padding-left: 30px;
 	text-align: left;
 	font-size: 20px;
+	padding: 5px;
+    padding-left: 20px;
 }
 
 section {
