@@ -72,3 +72,7 @@ img {
     max-height: 100%;
     padding: 10px;
 }
+
+video {
+	padding: 10px;
+}
